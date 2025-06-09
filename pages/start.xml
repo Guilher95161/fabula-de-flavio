@@ -1,7 +1,7 @@
-<page id="start" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page id="Entrada" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
   <agent
-    id="teste"
-    text="Hello World"
+    id="Mensagem_de_Boa_vindas"
+    text="Olá, deseja começar sua jornada em um dia como um aviador da CAN"
     color="white"
     x="center"
     y="center"
@@ -9,8 +9,8 @@
   />
 
   <agent
-    id="next_page_text"
-    text="Proxima Pagina"
+    id="direcionador_sim"
+    text="Sim"
     animation="glitch"
     y="480"
     x="640"
