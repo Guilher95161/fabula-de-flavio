@@ -1,4 +1,4 @@
-<page id="start" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page id="start" bg_image="tech-bg-lab.png" bg_music="osts-vi.mp3">
   <agent
     id="Mensagem_de_Boa_vindas"
     text="Olá, deseja começar sua jornada em um dia como um aviador da CAN?"
