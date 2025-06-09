@@ -1,11 +1,11 @@
-<page id="Entrada" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page id="start" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
   <agent
     id="Mensagem_de_Boa_vindas"
-    text="Olá, deseja começar sua jornada em um dia como um aviador da CAN"
+    text="Olá, deseja começar sua jornada em um dia como um aviador da CAN?"
     color="white"
-    x="center"
-    y="center"
-    font-size="70"
+    x=""
+    y="20"
+    font-size="40"
   />
 
   <agent
