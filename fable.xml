@@ -5,6 +5,7 @@
   <property name="visitante" default="Aventureiro" />
 
   <inicio />
-  <na />
+  <introducao />
   <fim />
+  <sem-escolha/>
 </fable>
