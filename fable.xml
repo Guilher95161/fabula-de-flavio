@@ -4,7 +4,7 @@
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
 
-  <Entrada />
-  <middle />
-  <ending />
+  <inicio />
+  <na />
+  <fim />
 </fable>
