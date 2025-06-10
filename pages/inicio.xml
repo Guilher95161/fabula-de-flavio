@@ -18,10 +18,10 @@
   />
   <agent
     id="direcionador_nao"
-    text = "Não"
+    text="Não"
     animation="glitch"
     y="480"
     x="114"
     on_click="goToPage('sem-escolha')"
-    />
+  />
 </page>
