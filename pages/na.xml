@@ -1,4 +1,4 @@
-<page id="middle" bg_image="tech-bg-lab.png" bg_music="osts-vio.mp3">
+<page id="na" bg_image="tech-bg-lab.png" bg_music="osts-vio.mp3">
   <agent
     id="teste"
     text="Hello World Middle"
@@ -14,6 +14,6 @@
     animation="glitch"
     y="480"
     x="640"
-    on_click="goToPage('ending')"
+    on_click="goToPage('fim')"
   />
 </page>
