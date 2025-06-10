@@ -1,4 +1,4 @@
-<page id="start" bg_image="tech-bg-lab.png" bg_music="osts-vi.mp3">
+<page id="inicio" bg_image="tech-bg-lab.png" bg_music="osts-vi.mp3">
   <agent
     id="Mensagem_de_Boa_vindas"
     text="Olá, deseja começar sua jornada em um dia como um aviador da CAN?"
@@ -14,6 +14,6 @@
     animation="glitch"
     y="480"
     x="640"
-    on_click="goToPage('middle')"
+    on_click="goToPage('na')"
   />
 </page>
