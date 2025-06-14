@@ -18,7 +18,6 @@
       text="Gaveta $i"
       color="white"
       font-size="16"
-      on_click="setIf($i <= 3, 'item$i', true)"
     />
   </fab-for>
 
