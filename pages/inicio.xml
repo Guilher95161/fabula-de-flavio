@@ -15,6 +15,7 @@
     y="480"
     x="640"
     on_click="goToPage('introducao')"
+    font-size="40"
   />
   <agent
     id="direcionador_nao"
@@ -23,5 +24,7 @@
     y="480"
     x="114"
     on_click="goToPage('sem-escolha')"
+    font-size="40
+    "
   />
 </page>
