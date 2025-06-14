@@ -1,7 +1,7 @@
 <page id="pega-item" bg_color="black">
   <agent
     id="mensagem"
-    text="Ainda faltam items a serem pegos"
+    text="$mensagem_pega_itens"
     x="center"
     y="top"
     color="white"
