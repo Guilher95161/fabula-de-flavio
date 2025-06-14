@@ -75,7 +75,6 @@
       y="525"
       color="white"
       font-size="20"
-      on_click="set(mensagem_pega_itens, 'Falta itens para pegar')"
     />
   </fab-if>
 </page>
