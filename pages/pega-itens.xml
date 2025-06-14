@@ -11,14 +11,16 @@
 
   <!-- Gavetas e itens -->
   <fab-for each="i in $lista">
-    <agent
-      id="gaveta-$i"
-      x="($i-1)*70+50"
-      y="300"
-      text="Gaveta $i"
-      color="white"
-      font-size="16"
-    />
+    <fab-if when="not ($i = 2 or $i = 4 or $i = 8)">
+      <agent
+        id="gaveta-$i"
+        x="($i-1)*70+50"
+        y="300"
+        text="Gaveta $i"
+        color="white"
+        font-size="16"
+      />
+    </fab-if>
   </fab-for>
 
   <!-- Porta de saída -->
