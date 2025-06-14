@@ -1,10 +1,35 @@
 <page id="pega-itens" bg_color="black">
+  <!-- Mensagem no topo -->
   <agent
-    id="titulo"
+    id="mensagem"
     x="center"
-    y="center"
-    text="Página pega-itens"
+    y="top"
+    text="Ainda faltam itens a serem pegos."
     color="white"
-    font-size="24"
+    font-size="18"
+  />
+
+  <!-- Gavetas e itens -->
+  <fab-for each="i in 1..10">
+    <agent
+      id="gaveta-$i"
+      x="10%"
+      y="calc(10% + $i * 5%)"
+      text="Gaveta $i"
+      color="white"
+      font-size="16"
+      on_click="if ($i <= 3) set('item$i', true)"
+    />
+  </fab-for>
+
+  <!-- Porta de saída -->
+  <agent
+    id="porta-saida"
+    x="right"
+    y="center"
+    text="Porta de Saída"
+    color="white"
+    font-size="20"
+    on_click="if ($item1 and $item2 and $item3) goToPage('proxima-pagina') else set('mensagem', 'Você ainda não pode sair.')"
   />
 </page>
