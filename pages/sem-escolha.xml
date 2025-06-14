@@ -7,10 +7,11 @@
     color="white"
     font-size="24"
   />
-  <agent 
+  <agent
     id="botao_redirecionador"
     text="New Agent"
-    x=""
+    x="50%"
+    y="90%"
     on_click="goToPage('introducao')"
-    />
+  />
 </page>
