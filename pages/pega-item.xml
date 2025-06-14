@@ -36,7 +36,7 @@
     text="Gaveta 8"
     color="white"
     font-size="16"
-    on_click="set(item8, 1);set(mensagem_pega_itens, 'Pegou um dos Itens!')"
+    on_click="set(item8, 1);setIf($item8=1, mensagem_pega_itens, 'Item já pego');setIf($item8=0,mensagem_pega_itens, 'Pegou um dos Itens!')"
   />
   <agent
     id="gaveta-4"
