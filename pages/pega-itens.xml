@@ -38,14 +38,13 @@
     color="white"
     font-size="16"
   />
-  <agent
-    id="gaveta-4"
-    x="260"
-    y="300"
-    text="Gaveta 4"
-    color="white"
-    font-size="16"
-  />
+<agent id="gaveta-4" 
+  text="Gaveta 4" 
+  x="260"
+  y="300"
+  color="white"
+  font-size="16"
+/>
   <!-- Porta de saída -->
   <agent
     id="porta-saida"
