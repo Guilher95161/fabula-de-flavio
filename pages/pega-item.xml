@@ -8,7 +8,7 @@
     font-size="18"
   />
   <fab-for each="i in $lista">
-    <fab-if when="not $i = 2 or $i = 4 or $i = 8">
+    <fab-if when="not ($i = 2 or $i = 4 or $i = 8)">
       <agent
         id="gaveta-$i"
         x="($i-1)*70+50"
@@ -53,6 +53,6 @@
     y="525"
     color="white"
     font-size="20"
-    on_click="setIf($item2 and $item4 and $item8, goToPage('fim'), set($mensagem_pega_itens, 'Você ainda não pode sair'))"
+    on_click="if ($item2 and $item4 and $item8) goToPage('fim') else set($mensagem_pega_itens, Você ainda não pode sair)"
   />
 </page>
