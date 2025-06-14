@@ -1,11 +1,11 @@
 <page id="introducao" bg_image="tech-bg-lab.png" bg_music="osts-vio.mp3">
   <agent
     id="teste"
-    text="Hello World Middle"
+    text="Você, um aviador da CAN, deve entregar, mas antes disso entre aeroporto"
     color="white"
     x="center"
-    y="center"
-    font-size="70"
+    y=""
+    font-size="20"
   />
 
   <agent
