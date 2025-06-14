@@ -1,19 +1,9 @@
 <fable>
   <config font-family="Schoolbell" />
   <property name="lista" default="[1,2,3,4,5,6,7,8,9,10]" />
-  <property name="item1" default="false" />
   <property name="item2" default="false" />
-  <property name="item3" default="false" />
   <property name="item4" default="false" />
-  <property name="item5" default="false" />
-  <property name="item6" default="false" />
-  <property name="item7" default="false" />
   <property name="item8" default="false" />
-  <property name="item9" default="false" />
-  <property name="item10" default="false" />
-  <property name="conta_itens" default="0" />
-  <property name="pontuacao" default="0" />
-  <property name="visitante" default="Aventureiro" />
 
   <inicio />
   <introducao />
