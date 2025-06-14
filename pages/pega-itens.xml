@@ -13,8 +13,8 @@
   <fab-for each="i in $lista">
     <agent
       id="gaveta-$i"
-      x="10"
-      y="$i * 5 + 10"
+      x="($i-1)*70+50"
+      y="300"
       text="Gaveta $i"
       color="white"
       font-size="16"
@@ -24,8 +24,8 @@
   <!-- Porta de saída -->
   <agent
     id="porta-saida"
-    x="right"
-    y="center"
+    x="640"
+    y="525"
     text="Porta de Saída"
     color="white"
     font-size="20"
