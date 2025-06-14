@@ -53,6 +53,6 @@
     text="Porta de Saída"
     color="white"
     font-size="20"
-    on_click="if ($item1 and $item2 and $item3) goToPage('fim') else set('mensagem', 'Você ainda não pode sair.')"
+    on_click="if ($item2 and $item4 and $item8) goToPage('fim') else set(${mensagem_pega_itens}, ${"Você ainda não pode sair"})"
   />
 </page>
