@@ -26,7 +26,7 @@
     text="Gaveta 2"
     color="white"
     font-size="16"
-    on_click="set(item2, 1)"
+    on_click="set(item2, 1) set(mensagem_pega_itens, 'Pegou um dos itens')"
   />
   <agent
     id="gaveta-8"
@@ -35,7 +35,7 @@
     text="Gaveta 8"
     color="white"
     font-size="16"
-    on_click="set(item8, 1)"
+    on_click="set(item8, 1) set(mensagem_pega_itens, 'Pegou um dos itens')"
   />
   <agent
     id="gaveta-4"
@@ -44,7 +44,7 @@
     y="300"
     color="white"
     font-size="16"
-    on_click="set(item4, 1)"
+    on_click="set(item4, 1) set(mensagem_pega_itens, 'Pegou um dos itens')"
   />
   <fab-if when="$item2 = 1 and $item4=1 and $item8=1">
     <agent
@@ -65,7 +65,7 @@
       y="525"
       color="white"
       font-size="20"
-      on_click="set(mensagem, $mensagem_pega_itens)"
+      on_click="set(mensagem_pega_itens, 'Falta itens para pegar')"
     />
   </fab-if>
 </page>
