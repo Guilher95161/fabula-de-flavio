@@ -17,7 +17,7 @@
     x="100"
     y="300"
     font-size="18"
-    on_drag="setIf($dragged_to_target, goToPage('fim'))"
+    on_drag="setIf($dragged_to_target, goToPage('pega-itens'))"
     draggable="true"
   />
 
