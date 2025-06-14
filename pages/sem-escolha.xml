@@ -11,7 +11,7 @@
     id="botao_redirecionador"
     text="New Agent"
     color="white"
-    x=""
+    x="center"
     y=""
     on_click="goToPage('introducao')"
   />
