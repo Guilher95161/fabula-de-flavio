@@ -44,7 +44,7 @@
     y="300"
     color="white"
     font-size="16"
-    on_click="set(item4, 1)"
+    on_click="set(item4, 1);set(mensagem_pega_itens, 'Pegou um dos Itens!')"
   />
   <fab-if when="$item2 = 1 and $item4=1 and $item8=1">
     <agent
