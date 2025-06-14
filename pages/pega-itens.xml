@@ -1,4 +1,4 @@
-<page id="pega-itens" bg_color="black">
+<page id="pega-item" bg_color="black">
   <!-- Mensagem no topo -->
   <agent
     id="mensagem"
