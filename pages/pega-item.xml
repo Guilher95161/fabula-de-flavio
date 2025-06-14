@@ -48,14 +48,24 @@
   />
   <fab-if when="$item2 = 1 and $item4=1 and $item8=1">
     <agent
-      id = "porta-saida"
+      id="porta-saida"
       text="Porta de Saída"
       x="640"
       y="525"
       color="white"
       font-size="20"
       on_click="goToPage('fim')"
-      />
+    />
   </fab-if>
-  <fab-if when = "not ($item2=1 and $"
+  <fab-if when="not ($item2=1 and $item4=1 and $item8=1)">
+    <agent
+      id="porta-saída"
+      text="Porta de Saída"
+      x="640"
+      y="525"
+      color="white"
+      font-size="20"
+      on_click="set(mensagem_pega_itens, 'Você ainda não pode sair')"
+    />
+  </fab-if>
 </page>
