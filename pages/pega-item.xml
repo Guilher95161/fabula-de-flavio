@@ -4,8 +4,43 @@
     text="Ainda faltam items a serem pegos"
     x="center"
     y="top"
-    text="Ainda faltam itens a serem pegos."
     color="white"
     font-size="18"
+  />
+  <fab-for each="i in $[1,2,3,4,5,6,7,8,9,10]">
+    <fab-if when="not ($i = 2 or $i = 4 or $i = 8)">
+      <agent
+        id="gaveta-$i"
+        x="($i-1)*70+50"
+        y="300"
+        text="Gaveta $i"
+        color="white"
+        font-size="16"
+      />
+    </fab-if>
+  </fab-for>
+  <agent
+    id="gaveta-2"
+    x="120"
+    y="300"
+    text="Gaveta 2"
+    color="white"
+    font-size="16"
+  />
+  <agent
+    id="gaveta-8"
+    x="540"
+    y="300"
+    text="Gaveta 8"
+    color="white"
+    font-size="16"
+  />
+  <agent
+    id="gaveta-4"
+    text="Gaveta 4"
+    x="260"
+    y="300"
+    color="white"
+    font-size="16"
   />
 </page>
