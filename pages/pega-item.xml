@@ -69,4 +69,13 @@
       on_click="set(mensagem_pega_itens, 'Falta itens para pegar')"
     />
   </fab-if>
+  <agent
+    id="dica"
+    x="20"
+    y="525"
+    text="DICA"
+    color="white"
+    font-size="20"
+    on_click="set(mensagem_pega_itens, 'Pense em um certo número elevado a 1, 2 e 3 ')"
+  />
 </page>
