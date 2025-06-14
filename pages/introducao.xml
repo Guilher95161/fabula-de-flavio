@@ -1,19 +1,44 @@
 <page id="introducao" bg_image="tech-bg-lab.png" bg_music="osts-vio.mp3">
+  <!-- Agente de Texto Inicial -->
   <agent
     id="teste"
     text="Você, um aviador da CAN, deve entregar uma encomenda, mas antes disso entre aeroporto"
     color="white"
     x="center"
-    y=""
+    y="100"
     font-size="20"
   />
 
+  <!-- Agente Arrastável -->
   <agent
-    id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
-    on_click="goToPage('fim')"
+    id="draggable_agent"
+    text="Arraste-me"
+    color="blue"
+    x="100"
+    y="300"
+    font-size="18"
+    on_drag="setIf($dragged_to_target, goToPage('fim'))"
+    draggable="true"
+  />
+
+  <!-- Agente Alvo -->
+  <agent
+    id="target_agent"
+    text="Alvo"
+    color="green"
+    x="400"
+    y="300"
+    font-size="18"
+    on_drop="set($dragged_to_target, true)"
+  />
+
+  <!-- Chão -->
+  <agent
+    id="chao"
+    image="tech-floor.png"
+    x="center"
+    y="500"
+    width="100%"
+    height="50"
   />
 </page>
