@@ -47,15 +47,6 @@
     font-size="16"
     on_click="set(item4, 1);set(mensagem_pega_itens, 'Pegou um dos Itens!');setIf($item8=1 and $item2=1 and $item4=1, mensagem_pega_itens, 'Já pegou todos os itens!')"
   />
-  <agent
-    id="dica"
-    x="20"
-    y="525"
-    text="DICA"
-    color="white"
-    font-size="20"
-    on_click="set(mensagem_pega_itens, 'Pense em um certo número elevado a 1, 2 e 3')"
-  />
   <fab-if when="$item2 = 1 and $item4=1 and $item8=1">
     <agent
       id="porta-saida"
@@ -75,6 +66,7 @@
       y="525"
       color="white"
       font-size="20"
+      on_click="set(mensagem_pega_itens, 'Falta itens para pegar')"
     />
   </fab-if>
 </page>
