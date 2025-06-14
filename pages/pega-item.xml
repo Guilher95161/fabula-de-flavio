@@ -65,7 +65,7 @@
       y="525"
       color="white"
       font-size="20"
-      on_click="set(mensagem_pega_itens, 'Você ainda não pode sair')"
+      on_click="set(mensagem, $mensagem_pega_itens)"
     />
   </fab-if>
 </page>
