@@ -14,7 +14,7 @@
     <agent
       id="gaveta-$i"
       x="10"
-      y="calc(10 + $i * 5)"
+      y="calc($10 + $i * 5)"
       text="Gaveta $i"
       color="white"
       font-size="16"
