@@ -2,17 +2,17 @@
   <agent
     id="titulo"
     x="center"
-    y="center"
+    y=""
     text="Você Não Tem Escolha😊"
     color="white"
     font-size="24"
   />
   <agent
     id="botao_redirecionador"
-    text="New Agent"
+    text="Botão de Início"
     color="white"
     x="center"
-    y=""
+    y="center"
     on_click="goToPage('introducao')"
   />
 </page>
