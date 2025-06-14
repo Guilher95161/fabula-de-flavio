@@ -1,6 +1,6 @@
 <fable>
   <config font-family="Schoolbell" />
-  <property name="dragged_to_target" default="false" />
+  <property name="conta_itens" default="0" />
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
 
