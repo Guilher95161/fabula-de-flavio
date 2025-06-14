@@ -1,3 +1,11 @@
 <page id="pega-item" bg_color="black">
-  <agent id="mensagem" text="Ainda faltam items a serem pegos" />
+  <agent
+    id="mensagem"
+    text="Ainda faltam items a serem pegos"
+    x="center"
+    y="top"
+    text="Ainda faltam itens a serem pegos."
+    color="white"
+    font-size="18"
+  />
 </page>
