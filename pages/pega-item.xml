@@ -26,7 +26,7 @@
     text="Gaveta 2"
     color="white"
     font-size="16"
-    on_click="set($item2, true)"
+    on_click="set(item2, true)"
   />
   <agent
     id="gaveta-8"
@@ -35,7 +35,7 @@
     text="Gaveta 8"
     color="white"
     font-size="16"
-    on_click="set($item8, true)"
+    on_click="set(item8, true)"
   />
   <agent
     id="gaveta-4"
@@ -44,7 +44,7 @@
     y="300"
     color="white"
     font-size="16"
-    on_click="set($item4, true)"
+    on_click="set(item4, true)"
   />
   <agent
     id="porta-saida"
@@ -53,6 +53,6 @@
     y="525"
     color="white"
     font-size="20"
-    on_click="if ($item2 and $item4 and $item8) goToPage('fim') else set($mensagem_pega_itens, Você ainda não pode sair)"
+    on_click="if ($item2 and $item4 and $item8) goToPage('fim') else set(mensagem_pega_itens, 'Você ainda não pode sair')"
   />
 </page>
