@@ -11,7 +11,7 @@
 
   <!-- Agente Arrastável -->
   <agent
-    id="draggable_agent"
+    id="protagonista"
     text="Arraste-me"
     color="blue"
     x="100"
@@ -22,7 +22,7 @@
 
   <!-- Agente Alvo -->
   <agent
-    id="target_agent"
+    id="entrada_aeroporto"
     text="Alvo"
     color="green"
     x="400"
