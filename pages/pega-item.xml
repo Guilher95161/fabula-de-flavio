@@ -46,13 +46,4 @@
     font-size="16"
     on_click="set(item4, 1)"
   />
-  <agent
-    id="porta-saida"
-    text="Porta de Saída"
-    x="640"
-    y="525"
-    color="white"
-    font-size="20"
-    on_click="if ($item2=1 and $item4=1 and $item8=1) goToPage('fim') else set(mensagem_pega_itens, 'Você ainda não pode sair')"
-  />
 </page>
