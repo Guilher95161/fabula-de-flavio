@@ -9,7 +9,7 @@
   />
   <agent
     id="botao_redirecionador"
-    text="Botão de Início"
+    text="Botão de Introdução"
     color="white"
     x="center"
     y="center"
