@@ -11,7 +11,5 @@
 
   <inicio />
   <introducao />
-  <pega-itens />
-  <fim />
   <sem-escolha />
 </fable>
