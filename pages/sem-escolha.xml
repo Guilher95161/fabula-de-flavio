@@ -3,8 +3,14 @@
     id="titulo"
     x="center"
     y="center"
-    text="Página sem-escolha"
+    text="Você Não Tem Escolha😊"
     color="white"
     font-size="24"
   />
+  <agent 
+    id="botao_redirecionador"
+    text="New Agent"
+    x=""
+    on_click="goToPage('introducao')"
+    />
 </page>
