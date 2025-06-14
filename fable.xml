@@ -11,6 +11,6 @@
   <inicio />
   <introducao />
   <sem-escolha />
-  <pega-itens />
+  <pega-item />
   <fim />
 </fable>
