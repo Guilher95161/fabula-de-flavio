@@ -17,7 +17,6 @@
     x="100"
     y="300"
     font-size="18"
-    on_drag="setIf($dragged_to_target, goToPage('pega-itens'))"
     draggable="true"
   />
 
@@ -29,7 +28,7 @@
     x="400"
     y="300"
     font-size="18"
-    on_drop="set($dragged_to_target, true)"
+    on_drop="goToPage('pega-itens')"
   />
 
   <!-- Chão -->
