@@ -76,6 +76,6 @@
     text="DICA"
     color="white"
     font-size="20"
-    on_click="set(mensagem_pega_itens, 'Pense em um certo número elevado a 1, 2 e 3 ')"
+    on_click="set(mensagem_pega_itens, 'Pense em um certo número elevado a 1, 2 e 3')"
   />
 </page>
