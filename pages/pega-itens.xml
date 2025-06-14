@@ -10,15 +10,15 @@
   />
 
   <!-- Gavetas e itens -->
-  <fab-for each="i in 1..10">
+  <fab-for each="i in $lista">
     <agent
       id="gaveta-$i"
       x="10"
-      y="calc($10 + $i * 5)"
+      y="$i * 5 + 10"
       text="Gaveta $i"
       color="white"
       font-size="16"
-      on_click="if ($i <= 3) set('item$i', true)"
+      on_click="setIf($i <= 3, 'item$i', true)"
     />
   </fab-for>
 
