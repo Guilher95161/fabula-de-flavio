@@ -6,7 +6,7 @@
 
   <inicio />
   <introducao />
+  <pega-itens />
   <fim />
   <sem-escolha />
-  <pega-itens />
 </fable>
