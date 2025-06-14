@@ -28,7 +28,7 @@
     x="400"
     y="300"
     font-size="18"
-    on_drop="goToPage('pega-itens')"
+    on_drop="goToPage('pega-item')"
   />
 
   <!-- Chão -->
