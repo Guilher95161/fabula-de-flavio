@@ -41,7 +41,7 @@
       <fab-if when="($i=6 or $i=7 or $i=9 or $i=10)">
         <agent
           id="gaveta-$i"
-          x="($i-5)*70+160"
+          x="($i)*150-100"
           y="245"
           text="Gaveta $i"
           color="white"
@@ -72,7 +72,7 @@
   <agent
     id="gaveta-4"
     text="Gaveta 4"
-    x="500"
+    x="520"
     y="230"
     color="white"
     font-size="16"
