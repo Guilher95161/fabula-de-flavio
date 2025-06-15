@@ -11,6 +11,7 @@
   <property name="item8" default="0" />
   <property name="sequencia_viagem" default="0" />
   <property name="clicou_dica_viagem" default="false" />
+  <property name="mensagem_viagem" default='Descubra a sequência correta para deter os inimigos e chegar ao destino!' />
 
   <inicio />
   <introducao />
