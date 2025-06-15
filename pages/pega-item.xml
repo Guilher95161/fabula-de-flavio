@@ -2,7 +2,7 @@
   <agent
     id="mensagem_principal_pegaitens"
     text="Você entrou no aeroporto, mas precisa pegar todos os itens para a viagem!"
-    x="center"
+    x="150"
     color="white"
     font-size="18"
   />
@@ -30,7 +30,7 @@
       <fab-if when=" ($i=1 or $i=3 or $i=5)">
         <agent
           id="gaveta-$i"
-          x="160+($i)*70"
+          x="10+($i)*70"
           y="200"
           text="Gaveta $i"
           color="white"
