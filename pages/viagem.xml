@@ -1,5 +1,12 @@
 <page id="viagem" bg_color="black">
   <agent
+    id="mensagem_principal_viagem"
+    text="$mensagem_viagem"
+    x="center"
+    color="white"
+    font-size="18"
+  />
+  <agent
     id="norte"
     x="center"
     y="250"
