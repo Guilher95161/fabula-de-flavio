@@ -2,8 +2,8 @@
 
     <agent id="norte" x="100" y="50" text="Norte" on_click="setIf($sequencia_viagem = 0 or $sequencia_viagem = 1, sequencia_viagem, $sequencia_viagem + 1)" />
     <agent id="sul" x="100" y="150" text="Sul" on_click="setIf($sequencia_viagem = 2 or $sequencia_viagem = 3, sequencia_viagem, $sequencia_viagem + 1)" />
-    <agent id="leste" x="150" y="100" text="Leste" on_click="setIf($sequencia_viagem = 4 or $sequencia_viagem = 6, sequencia_viagem, $sequencia_viagem + 1)" />
-    <agent id="oeste" x="50" y="100" text="Oeste" on_click="setIf($sequencia_viagem = 5 or $sequencia_viagem = 7, sequencia_viagem, $sequencia_viagem + 1)" />
+    <agent id="leste" x="150" y="100" text="Leste" on_click="setIf($sequencia_viagem = 5 or $sequencia_viagem = 7, sequencia_viagem, $sequencia_viagem + 1)" />
+    <agent id="oeste" x="50" y="100" text="Oeste" on_click="setIf($sequencia_viagem = 4 or $sequencia_viagem = 6, sequencia_viagem, $sequencia_viagem + 1)" />
     <fab-if when="$sequencia_viagem = 8">
       <agent id="destino" x="100" y="200" text="Destino Alcançado!" />
     </fab-if>
