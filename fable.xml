@@ -4,12 +4,13 @@
     name="mensagem_pega_itens"
     default="Ainda faltam itens a serem pegos"
   />
-  <property name="clicou_dica" default="false" />
+  <property name="clicou_dica_pega_itens" default="false" />
   <property name="lista" default="[1,2,3,4,5,6,7,8,9,10]" />
   <property name="item2" default="0" />
   <property name="item4" default="0" />
   <property name="item8" default="0" />
   <property name="sequencia_viagem" default="0" />
+  <property name="clicou_dica_viagem" default="false" />
 
   <inicio />
   <introducao />
