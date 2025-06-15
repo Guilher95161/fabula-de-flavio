@@ -33,7 +33,7 @@
   />
 
   <!-- Chão -->
-  <fab-for each="i in $lista">
+  <fab-for each="i in $lista_tileset">
     <agent
       id="chao-$i"
       image="tech-floor.png"
