@@ -84,7 +84,7 @@
       id="porta-saída"
       text="Porta de Saída"
       x="640"
-      y="525"
+      y="500"
       color="white"
       font-size="20"
       on_click="set(mensagem_pega_itens, 'Falta itens para pegar')"
@@ -94,8 +94,8 @@
     id="dica_pegaitens"
     text="DICA"
     color="white"
-    x="20"
-    y="525"
+    x="55"
+    y="500"
     font-size="20"
     on_click="set(clicou_dica_pega_itens, true)"
   />
@@ -106,7 +106,7 @@
       color="white"
       font-size="18"
       x="230"
-      y="525"
+      y="500"
       on_click="set(clicou_dica_pega_itens, false)"
     />
   </fab-if>
