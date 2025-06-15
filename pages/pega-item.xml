@@ -1,6 +1,6 @@
 <page id="pega-item" bg_color="black">
   <agent
-    id="mensagem_principal"
+    id="mensagem_principal_pegaitens"
     text="Pegue todos os itens para a viagem!"
     x="center"
     color="white"
