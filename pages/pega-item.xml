@@ -54,7 +54,7 @@
   <agent
     id="gaveta-2"
     x="200"
-    y="200"
+    y="230"
     text="Gaveta 2"
     color="white"
     font-size="16"
@@ -73,7 +73,7 @@
     id="gaveta-4"
     text="Gaveta 4"
     x="500"
-    y="200"
+    y="230"
     color="white"
     font-size="16"
     on_click="set(item4, 1);set(mensagem_pega_itens, 'Pegou um dos Itens!');setIf($item8=1 and $item2=1 and $item4=1, mensagem_pega_itens, 'Já pegou todos os itens!')"
