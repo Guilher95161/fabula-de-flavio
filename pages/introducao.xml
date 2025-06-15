@@ -26,10 +26,10 @@
   <!-- Agente Alvo -->
   <agent
     id="entrada_aeroporto"
-    text="Alvo"
+    image="forest-door-1.png"
     color="green"
-    x="650"
-    y="500"
+    x="740"
+    y="259"
     font-size="18"
     on_drop="goToPage('pega-item')"
   />
