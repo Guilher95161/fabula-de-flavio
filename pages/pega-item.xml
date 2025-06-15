@@ -1,7 +1,7 @@
 <page id="pega-item" bg_color="black">
   <agent
     id="mensagem_principal"
-    text="Pegue todos os itens"
+    text="Pegue todos os itens para a viagem!"
     x="center"
     color="white"
     font-size="18"
@@ -20,8 +20,8 @@
       <fab-if when=" ($i=1 or $i=3 or $i=5)">
         <agent
           id="gaveta-$i"
-          x="100+($i)*70"
-          y="300"
+          x="160+($i)*70"
+          y="200"
           text="Gaveta $i"
           color="white"
           font-size="16"
@@ -31,8 +31,8 @@
       <fab-if when="($i=6 or $i=7 or $i=9 or $i=10)">
         <agent
           id="gaveta-$i"
-          x="($i-1)*70+50"
-          y="345"
+          x="($i-5)*70+160"
+          y="245"
           text="Gaveta $i"
           color="white"
           font-size="16"
@@ -43,8 +43,8 @@
   </fab-for>
   <agent
     id="gaveta-2"
-    x="120"
-    y="300"
+    x="(2)*70+160"
+    y="200"
     text="Gaveta 2"
     color="white"
     font-size="16"
@@ -52,8 +52,8 @@
   />
   <agent
     id="gaveta-8"
-    x="540"
-    y="345"
+    x="(8-5)*70+160"
+    y="245"
     text="Gaveta 8"
     color="white"
     font-size="16"
@@ -62,8 +62,8 @@
   <agent
     id="gaveta-4"
     text="Gaveta 4"
-    x="260"
-    y="300"
+    x="(4)*70+160"
+    y="200"
     color="white"
     font-size="16"
     on_click="set(item4, 1);set(mensagem_pega_itens, 'Pegou um dos Itens!');setIf($item8=1 and $item2=1 and $item4=1, mensagem_pega_itens, 'Já pegou todos os itens!')"
@@ -90,4 +90,13 @@
       on_click="set(mensagem_pega_itens, 'Falta itens para pegar')"
     />
   </fab-if>
+  <agent
+    id="dica"
+    text="DICA"
+    color="white"
+    x="20"
+    y="525"
+    font-size="20"
+    on_click="set(mensagem_dica, 'Pense em um certo número elevado a 1,2 e 3')"
+  />
 </page>
