@@ -13,10 +13,10 @@
   <!-- Agente Arrastável -->
   <agent
     id="protagonista"
-    text="Arraste-me"
     color="blue"
     x="100"
     y="500"
+    image="forest-hero-idle.png"
     font-size="18"
     draggable="true"
   />
