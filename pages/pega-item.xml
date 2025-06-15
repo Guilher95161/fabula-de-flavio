@@ -103,8 +103,8 @@
     id="mensagem_dica"
     text="$mensagem_dica"
     color="white"
-    font_size="18"
-    x="40"
+    font-size="18"
+    x="100"
     y="525"
   />
 </page>
