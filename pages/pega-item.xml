@@ -99,4 +99,12 @@
     font-size="20"
     on_click="set(mensagem_dica, 'Pense em um certo número elevado a 1,2 e 3')"
   />
+  <agent
+    id="mensagem_dica"
+    text="$mensagem_dica"
+    color="white"
+    font_size="18"
+    x="40"
+    y="525"
+  />
 </page>
