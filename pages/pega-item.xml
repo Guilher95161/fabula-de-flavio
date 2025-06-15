@@ -1,9 +1,16 @@
 <page id="pega-item" bg_color="black">
   <agent
-    id="mensagem"
+    id="mensagem_principal"
+    text="Pegue todos os itens"
+    x="center"
+    color="white"
+    font-size="18"
+  />
+  <agent
+    id="mensagem_dinamica"
     text="$mensagem_pega_itens"
     x="center"
-    y="top"
+    y="50"
     color="white"
     font-size="18"
     animation="typewriter"
@@ -13,7 +20,7 @@
       <fab-if when=" ($i=1 or $i=3 or $i=5)">
         <agent
           id="gaveta-$i"
-          x="($i-1)*70+50"
+          x="100+($i)*70"
           y="300"
           text="Gaveta $i"
           color="white"
