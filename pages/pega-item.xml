@@ -6,6 +6,7 @@
     y="top"
     color="white"
     font-size="18"
+    animation="typewriter"
   />
   <fab-for each="i in $lista">
     <fab-if when="not ($i = 2 or $i = 4 or $i = 8)">
