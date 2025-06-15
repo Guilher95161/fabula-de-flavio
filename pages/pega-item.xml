@@ -7,6 +7,16 @@
     font-size="18"
   />
   <agent
+    id="protagonista"
+    color="blue"
+    x="100"
+    y="439"
+    image="forest-hero-idle.png"
+    font-size="18"
+    width="120"
+    height="120"
+  />
+  <agent
     id="mensagem_dinamica"
     text="$mensagem_pega_itens"
     x="center"
