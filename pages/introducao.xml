@@ -33,12 +33,14 @@
   />
 
   <!-- Chão -->
-  <agent
-    id="chao"
-    image="tech-floor.png"
-    x="center"
-    y="500"
-    width="100%"
-    height="50"
-  />
+  <fab-for each="i in $lista">
+    <agent
+      id="chao-$i"
+      image="tech-floor.png"
+      x="$i+90"
+      y="500"
+      width="100%"
+      height="50"
+    />
+  </fab-for>
 </page>
