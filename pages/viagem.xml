@@ -30,4 +30,23 @@
   <fab-if when="$sequencia_viagem = 8">
     <agent id="destino" x="100" y="200" text="Destino Alcançado!" />
   </fab-if>
+  <agent
+    id="dica_viagem"
+    text="DICA"
+    color="white"
+    x="20"
+    y="525"
+    font-size="20"
+    on_click="set(clicou_dica_viagem, true)"
+  />
+  <fab-if when="clicou_dica_viagem=true">
+    <agent
+      id="mensagem_dica_viagem"
+      text="Pense no Código Konami"
+      color="white"
+      font-size="18"
+      x="230"
+      y="525"
+    />
+  </fab-if>
 </page>
