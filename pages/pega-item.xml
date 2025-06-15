@@ -30,7 +30,7 @@
       <fab-if when=" ($i=1 or $i=3 or $i=5)">
         <agent
           id="gaveta-$i"
-          x="10+($i)*70"
+          x=" ($i)*50"
           y="200"
           text="Gaveta $i"
           color="white"
@@ -53,7 +53,7 @@
   </fab-for>
   <agent
     id="gaveta-2"
-    x="(2)*70+160"
+    x="(2)*50"
     y="200"
     text="Gaveta 2"
     color="white"
