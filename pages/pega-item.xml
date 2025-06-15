@@ -97,14 +97,16 @@
     x="20"
     y="525"
     font-size="20"
-    on_click="set(mensagem_dica, 'Pense em um certo número elevado a 1,2 e 3')"
+    on_click="set(clicou_dica, true)"
   />
-  <agent
-    id="mensagem_dica"
-    text="$mensagem_dica"
-    color="white"
-    font-size="18"
-    x="100"
-    y="525"
-  />
+  <fab-if when="clicou_dica=true">
+    <agent
+      id="mensagem_dica"
+      text="Pense em um número elevado a 1, 2 e 3"
+      color="white"
+      font-size="18"
+      x="100"
+      y="525"
+    />
+  </fab-if>
 </page>
