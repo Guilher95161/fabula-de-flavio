@@ -1,4 +1,4 @@
-<page id="introducao" bg_image="tech-bg-lab.png" bg_music="osts-vio.mp3">
+<page id="introducao" bg_image="aeroporto.png" bg_music="osts-vio.mp3">
   <!-- Agente de Texto Inicial -->
   <agent
     id="teste"
