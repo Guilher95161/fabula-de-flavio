@@ -1,7 +1,7 @@
-<page id="pega-item" bg_color="black">
+<page id="pega-item" bg_image="estante_pegaitens.png">
   <agent
     id="mensagem_principal_pegaitens"
-    text="Pegue todos os itens para a viagem!"
+    text="Você entrou no aeroporto, mas precisa pegar todos os itens para a viagem!"
     x="center"
     color="white"
     font-size="18"
@@ -20,7 +20,7 @@
     id="mensagem_dinamica"
     text="$mensagem_pega_itens"
     x="center"
-    y="50"
+    y="100"
     color="white"
     font-size="18"
     animation="typewriter"
