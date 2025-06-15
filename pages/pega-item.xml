@@ -76,7 +76,7 @@
       y="525"
       color="white"
       font-size="20"
-      on_click="goToPage('fim')"
+      on_click="goToPage('viagem')"
     />
   </fab-if>
   <fab-if when="not ($item2=1 and $item4=1 and $item8=1)">
