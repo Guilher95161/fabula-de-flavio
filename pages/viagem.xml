@@ -28,7 +28,13 @@
     on_click="setIf($sequencia_viagem = 4 or $sequencia_viagem = 6, sequencia_viagem, $sequencia_viagem + 1)"
   />
   <fab-if when="$sequencia_viagem = 8">
-    <agent id="destino" x="100" y="200" text="Destino Alcançado!" />
+    <agent
+      id="destino"
+      x="640"
+      y="100"
+      text="Destino Alcançado!"
+      on_click="goToPage('fim')"
+    />
   </fab-if>
   <agent
     id="dica_viagem"
