@@ -16,7 +16,7 @@
     text="Arraste-me"
     color="blue"
     x="100"
-    y="300"
+    y="500"
     font-size="18"
     draggable="true"
   />
@@ -26,19 +26,19 @@
     id="entrada_aeroporto"
     text="Alvo"
     color="green"
-    x="400"
-    y="300"
+    x="650"
+    y="500"
     font-size="18"
     on_drop="goToPage('pega-item')"
   />
 
-  <!-- Chão -->
+  <!-- tileset -->
   <fab-for each="i in $lista_tileset">
     <agent
       id="chao-$i"
       image="tech-floor.png"
-      x="$i*57-56"
-      y="500"
+      x="$i*50-50"
+      y="550"
       width="100%"
       height="50"
     />
