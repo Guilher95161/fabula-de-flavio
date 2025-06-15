@@ -6,6 +6,7 @@
     text="Você Não Tem Escolha😊"
     color="white"
     font-size="24"
+    animation="typewriter"
   />
   <agent
     id="botao_redirecionador"
