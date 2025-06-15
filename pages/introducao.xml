@@ -15,10 +15,12 @@
     id="protagonista"
     color="blue"
     x="100"
-    y="500"
+    y="439"
     image="forest-hero-idle.png"
     font-size="18"
     draggable="true"
+    width="120"
+    height="120"
   />
 
   <!-- Agente Alvo -->
