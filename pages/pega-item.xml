@@ -7,16 +7,6 @@
     font-size="18"
   />
   <agent
-    id="protagonista"
-    color="blue"
-    x="100"
-    y="439"
-    image="forest-hero-idle.png"
-    font-size="18"
-    width="120"
-    height="120"
-  />
-  <agent
     id="mensagem_dinamica"
     text="$mensagem_pega_itens"
     x="center"
@@ -41,8 +31,8 @@
       <fab-if when="($i=6 or $i=7 or $i=9 or $i=10)">
         <agent
           id="gaveta-$i"
-          x="($i)*150-100"
-          y="245"
+          x="($i-5)*150-100"
+          y="350"
           text="Gaveta $i"
           color="white"
           font-size="16"
@@ -62,8 +52,8 @@
   />
   <agent
     id="gaveta-8"
-    x="(8-5)*70+160"
-    y="245"
+    x="350"
+    y="350"
     text="Gaveta 8"
     color="white"
     font-size="16"
