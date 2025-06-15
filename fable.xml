@@ -9,11 +9,12 @@
   <property name="item2" default="0" />
   <property name="item4" default="0" />
   <property name="item8" default="0" />
+  <property name="sequencia_viagem" default="0" />
 
   <inicio />
   <introducao />
   <sem-escolha />
   <pega-item />
   <fim />
-  <viagem/>
+  <viagem />
 </fable>
