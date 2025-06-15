@@ -37,7 +37,7 @@
     <agent
       id="chao-$i"
       image="tech-floor.png"
-      x="$i*60"
+      x="$i*57-56"
       y="500"
       width="100%"
       height="50"
