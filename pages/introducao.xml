@@ -1,7 +1,7 @@
 <page id="introducao" bg_image="aeroporto.png" bg_music="osts-vio.mp3">
   <!-- Agente de Texto Inicial -->
   <agent
-    id="teste"
+    id="titulo"
     text="Você, um aviador da CAN, deve entregar uma encomenda, mas antes disso entre aeroporto"
     color="white"
     x="center"
