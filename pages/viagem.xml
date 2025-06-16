@@ -1,4 +1,5 @@
 <page id="viagem" bg_image="imagem_viagem.jpg">
+  <agent id="new_agent" text="$sequencia_viagem" />
   <agent
     id="mensagem_principal_viagem"
     text="$mensagem_viagem"
@@ -39,7 +40,9 @@
       id="destino"
       x="640"
       y="100"
-      text="Destino Alcançado!"
+      height="120"
+      width="120"
+      image="forest-door-3.png"
       on_click="goToPage('fim')"
     />
   </fab-if>
