@@ -5,7 +5,7 @@
     default="Ainda faltam itens a serem pegos"
   />
   <property name="clicou_dica_pega_itens" default="false" />
-  <property name="lista" default="[1,2,3,4,5,6,7,8,9,10]" />
+  <property name="lista" default="[1,2,3,4,5,6,7,8,9,10,]" />
   <property name="item2" default="0" />
   <property name="item4" default="0" />
   <property name="item8" default="0" />
@@ -13,11 +13,11 @@
   <property name="clicou_dica_viagem" default="false" />
   <property
     name="mensagem_viagem"
-    default="Descubra a sequência correta para deter os inimigos e chegar ao destino!"
+    default=" Enquanto viajva para o destino, você foi atacado! Descubra a sequência correta para deter os inimigos e chegar ao destino!"
   />
   <property
     name="lista_tileset"
-    default="[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]"
+    default="[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,]"
   />
   <inicio />
   <introducao />
