@@ -70,10 +70,12 @@
   />
   <fab-if when="$item2 = 1 and $item4=1 and $item8=1">
     <agent
-      id="porta-saida"
+      id="porta-saida-aberta"
       image="forest-door-3.png"
-      x="640"
-      y="525"
+      width="120"
+      height="120"
+      x="650"
+      y="463"
       color="white"
       font-size="20"
       on_click="goToPage('viagem')"
@@ -81,10 +83,12 @@
   </fab-if>
   <fab-if when="not ($item2=1 and $item4=1 and $item8=1)">
     <agent
-      id="porta-saída"
+      id="porta-saida-fechada"
       image="forest-door-1.png"
-      x="640"
-      y="500"
+      width="120"
+      height="120"
+      x="650"
+      y="463"
       color="white"
       font-size="20"
       on_click="set(mensagem_pega_itens, 'Falta itens para pegar')"
