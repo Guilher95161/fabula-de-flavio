@@ -9,29 +9,29 @@
   <agent
     id="norte"
     x="center"
-    y="100"
-    text="Norte"
+    y="50"
+    image="cemetery-bone-2.png"
     on_click="setIf($sequencia_viagem = 0 or $sequencia_viagem = 1, sequencia_viagem, $sequencia_viagem + 1)"
   />
   <agent
     id="sul"
     x="center"
-    y="200"
-    text="Sul"
+    y="150"
+    image="cemetery-bone-2.png"
     on_click="setIf($sequencia_viagem = 2 or $sequencia_viagem = 3, sequencia_viagem, $sequencia_viagem + 1)"
   />
   <agent
     id="leste"
     x="650"
     y="200"
-    text="Leste"
+    image="cemetery-bone-2.png"
     on_click="setIf($sequencia_viagem = 5 or $sequencia_viagem = 7, sequencia_viagem, $sequencia_viagem + 1)"
   />
   <agent
     id="oeste"
-    x="100"
+    x="20"
     y="200"
-    text="Oeste"
+    image="cemetery-bone-2.png"
     on_click="setIf($sequencia_viagem = 4 or $sequencia_viagem = 6, sequencia_viagem, $sequencia_viagem + 1)"
   />
   <fab-if when="$sequencia_viagem = 8">
