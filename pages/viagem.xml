@@ -1,5 +1,4 @@
 <page id="viagem" bg_image="imagem_viagem.jpg">
-  <agent id="new_agent" text="$sequencia_viagem" />
   <agent
     id="mensagem_principal_viagem"
     text="$mensagem_viagem"
