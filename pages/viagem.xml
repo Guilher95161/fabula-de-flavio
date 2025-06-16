@@ -46,7 +46,7 @@
   <agent
     id="dica_viagem"
     text="DICA"
-    color="white"
+    color="black"
     x="20"
     y="525"
     font-size="20"
@@ -56,7 +56,7 @@
     <agent
       id="mensagem_dica_viagem"
       text="Pense no Código Konami"
-      color="purple"
+      color="white"
       font-size="18"
       x="230"
       y="525"
