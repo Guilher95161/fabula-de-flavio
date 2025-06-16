@@ -13,7 +13,7 @@
   <property name="clicou_dica_viagem" default="false" />
   <property
     name="mensagem_viagem"
-    default=" Enquanto viajva para o destino, você foi atacado! Descubra a sequência correta para deter os inimigos e chegar ao destino!"
+    default=" Enquanto viajava para o destino, você foi atacado! Descubra a sequência correta para deter os inimigos e chegar ao destino!"
   />
   <property
     name="lista_tileset"
