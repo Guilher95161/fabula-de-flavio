@@ -26,7 +26,7 @@
   <!-- Agente Alvo -->
   <agent
     id="entrada_aeroporto"
-    image="forest-door-1.png"
+    image="forest-door-3.png"
     color="green"
     x="740"
     y="259"
@@ -39,7 +39,7 @@
     <agent
       id="chao-$i"
       image="tech-floor.png"
-      x="$i*50-50"
+      x="(50*$i)-50"
       y="550"
       width="100%"
       height="50"
