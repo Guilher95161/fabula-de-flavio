@@ -2,34 +2,34 @@
   <agent
     id="mensagem_principal_viagem"
     text="$mensagem_viagem"
-    x="center"
+    x=""
     color="white"
     font-size="18"
   />
   <agent
     id="norte"
     x="center"
-    y="150"
+    y="100"
     text="Norte"
     on_click="setIf($sequencia_viagem = 0 or $sequencia_viagem = 1, sequencia_viagem, $sequencia_viagem + 1)"
   />
   <agent
     id="sul"
     x="center"
-    y="250"
+    y="200"
     text="Sul"
     on_click="setIf($sequencia_viagem = 2 or $sequencia_viagem = 3, sequencia_viagem, $sequencia_viagem + 1)"
   />
   <agent
     id="leste"
-    x="450"
+    x="650"
     y="200"
     text="Leste"
     on_click="setIf($sequencia_viagem = 5 or $sequencia_viagem = 7, sequencia_viagem, $sequencia_viagem + 1)"
   />
   <agent
     id="oeste"
-    x="300"
+    x="100"
     y="200"
     text="Oeste"
     on_click="setIf($sequencia_viagem = 4 or $sequencia_viagem = 6, sequencia_viagem, $sequencia_viagem + 1)"
