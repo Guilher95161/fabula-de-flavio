@@ -2,7 +2,7 @@
   <!-- Agente de Texto Inicial -->
   <agent
     id="titulo"
-    text="Você, um aviador da CAN, deve entregar uma encomenda, mas antes disso entre aeroporto"
+    text="Você, um aviador da CAN, deve entregar uma encomenda, mas antes disso entre no aeroporto"
     color="white"
     x="center"
     y="100"
