@@ -1,16 +1,16 @@
 <page id="fim" bg_image="tech-bg-lab.png" bg_music="osts-ilo.mp3">
   <agent
     id="fim"
-    text="Você concluiu a narrativa!"
+    text="Parabéns, você concluiu a narrativa!"
     color="white"
     x="40"
     y="center"
-    font-size="70"
+    font-size="50"
   />
 
   <agent
     id="next_page_text"
-    text="Encerrar Narrativa"
+    text="Recomeçar Narrativa"
     animation="glitch"
     font-size="30"
     y="400"
