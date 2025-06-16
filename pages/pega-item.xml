@@ -71,7 +71,7 @@
   <fab-if when="$item2 = 1 and $item4=1 and $item8=1">
     <agent
       id="porta-saida"
-      text="Porta de Saída"
+      image="forest-door-3.png"
       x="640"
       y="525"
       color="white"
@@ -82,7 +82,7 @@
   <fab-if when="not ($item2=1 and $item4=1 and $item8=1)">
     <agent
       id="porta-saída"
-      text="Porta de Saída"
+      image="forest-door-1.png"
       x="640"
       y="500"
       color="white"
